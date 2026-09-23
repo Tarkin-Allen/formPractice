@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(243, 225, 243);
+    
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    
+}
+
+main #box{
+    background-color:white;
+    border-radius:25px;
+    
+    padding:5%;
+    padding-top:0%;
+    text-align:justify;
+    
+}
+
+input[type=email]{
+    background-color:rgb(243, 225, 243);
+    padding:10px;
+    margin:0px;
+    margin-bottom:10px;
+    border-radius:10px;
+    border:2px dotted rgb(247,132,247);
+}
+
+input[type=submit]{
+    background-color:rgb(247, 132, 247);
+    padding:5px;
+    border-radius:10px;
+    border: 1px solid rgb(196, 181, 196);
+    font-size:1.5em;
+}
+
+#submit{
+    text-align:right;
+    margin:0px;
+}
+
+#dogLogo{
+    height:50px;
+    float:right;
+    padding-top:10px;
+}
