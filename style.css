@@ -6,18 +6,16 @@ body{
 main{
     display:flex;
     justify-content:center;
-    align-items:stretch;
-    
+    align-items:center;
+    height:100vh;
 }
 
 main #box{
     background-color:white;
     border-radius:25px;
-    
-    padding:5%;
-    padding-top:0%;
     text-align:justify;
-    
+    padding:20px;
+    font-size:1em;
 }
 
 input[type=email]{
